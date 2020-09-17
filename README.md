@@ -2,6 +2,8 @@
 
 `pyhf` tutorial given at the [ATLAS Exotics + SUSY Workshop 2020](https://indico.cern.ch/event/898965/)
 
+**The tutorial is based off of [`pyhf` `v0.5.2`](https://pypi.org/project/pyhf/0.5.2/)**
+
 [![Deploy Jupyter Book](https://github.com/pyhf/tutorial-ATLAS-SUSY-Exotics-2020/workflows/Deploy%20Jupyter%20Book/badge.svg?branch=master)](https://pyhf.github.io/tutorial-ATLAS-SUSY-Exotics-2020/)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pyhf/tutorial-ATLAS-SUSY-Exotics-2020/master)
 
