@@ -1,6 +1,6 @@
 # https://jupyterbook.org/customize/config.html
 # Book settings
-title: 'PyHEP 2020 pyhf Tutorial'
+title: 'ATLAS Exotics + SUSY Workshop 2020 pyhf Tutorial'
 author: the pyhf development team
 logo: assets/logo.png
 
@@ -13,7 +13,7 @@ html:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/pyhf/tutorial-PyHEP-2020
+  url: https://github.com/pyhf/tutorial-ATLAS-SUSY-Exotics-2020
   path_to_book: book
   branch: master
 
