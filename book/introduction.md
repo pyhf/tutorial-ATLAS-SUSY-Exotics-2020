@@ -35,13 +35,25 @@ If you haven't already, make a new Python 3 virtual environment and then install
 
 ### Installation Extras
 
-If you're installing from PyPI, you can also install with some of the "extras" that will be useful for doing typical HEP analysis workflows with `pyhf`. For example, the 'xmlio' extra
+If you're installing from PyPI, you can also install with some of the "extras" that will be useful for doing typical HEP analysis workflows with `pyhf`.
 
+````{tabbed} Read/Write XML+ROOT
 ```
 (pyhf-tutorial) $ python -m pip install pyhf[xmlio]
 ```
 
-additionally installs [`uproot`](https://github.com/scikit-hep/uproot) to read `ROOT` files.
+The 'xmlio' extra additionally installs [`uproot`](https://github.com/scikit-hep/uproot) to read `ROOT` files.
+````
+
+````{tabbed} Use PyTorch and Tensorflow
+```
+(pyhf-tutorial) $ python -m pip install pyhf[torch,tensorflow]
+```
+
+The 'torch' extra installs [`pytorch`](https://pytorch.org/) and the 'tensorflow' extra installs [`tensorflow`](https://www.tensorflow.org/).
+````
+
+See our [installation docs](https://scikit-hep.org/pyhf/installation.html) for more information about installation options.
 
 ### Dependencies for this tutorial
 
