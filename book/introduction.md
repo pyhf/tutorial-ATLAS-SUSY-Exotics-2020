@@ -26,7 +26,7 @@ Instead, let's move to looking at the `pyhf` API right away.
 ```
 $ python3 -m venv pyhf-tutorial
 $ source pyhf-tutorial/bin/activate
-$ python -m pip install -U pip setuptools wheel
+(pyhf-tutorial) $ python -m pip install -U pip setuptools wheel
 ```
 ````
 
@@ -46,7 +46,7 @@ Then we can go ahead and create the virtual environment
 ```
 $ python3 -m venv pyhf-tutorial
 $ source pyhf-tutorial/bin/activate
-$ python -m pip install -U pip setuptools wheel
+(pyhf-tutorial) $ python -m pip install -U pip setuptools wheel
 ```
 ````
 
@@ -66,7 +66,7 @@ Then we can go ahead and create the virtual environment
 ```
 $ python3 -m venv pyhf-tutorial
 $ source pyhf-tutorial/bin/activate
-$ python -m pip install -U pip setuptools wheel
+(pyhf-tutorial) $ python -m pip install -U pip setuptools wheel
 ```
 ````
 
