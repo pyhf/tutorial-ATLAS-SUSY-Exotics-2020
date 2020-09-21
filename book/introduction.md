@@ -70,7 +70,7 @@ $ source pyhf-tutorial/bin/activate
 ```
 ````
 
-Once you have a virtual environment set up, you can use `source pyhf-tutorial/bin/activate` to get back into it again.
+Once you have a virtual environment set up, you can use `source pyhf-tutorial/bin/activate` to get back into it again. Note the prefix `(pyhf-tutorial) $` on your command line, which indicates that you're inside a virtual environment named 'pyhf-tutorial'.
 
 ### Getting pyhf
 
