@@ -20,6 +20,60 @@ Instead, let's move to looking at the `pyhf` API right away.
 
 ## Installation
 
+### Make a Virtual Environment
+
+````{tabbed} Locally
+```
+$ python3 -m venv pyhf-tutorial
+$ source pyhf-tutorial/bin/activate
+$ python -m pip install -U pip setuptools wheel
+```
+````
+
+````{tabbed} On CC7 lxplus/tier-3
+
+First we need to set up the 'views' with the right paths to ensure we use the correct `pip`
+
+```
+$ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+$ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh
+$ lsetup "views LCG_96bpython3 x86_64-centos7-gcc8-opt"
+$ export PYTHONPATH=/cvmfs/sft.cern.ch/lcg/views/LCG_96bpython3/x86_64-centos7-gcc8-opt/python:/cvmfs/sft.cern.ch/lcg/views/LCG_96bpython3/x86_64-centos7-gcc8-opt/lib
+```
+
+Then we can go ahead and create the virtual environment
+
+```
+$ python3 -m venv pyhf-tutorial
+$ source pyhf-tutorial/bin/activate
+$ python -m pip install -U pip setuptools wheel
+```
+````
+
+````{tabbed} On SLC6 lxplus/tier-3
+
+First we need to set up the 'views' with the right paths to ensure we use the correct `pip`
+
+```
+$ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+$ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh
+$ lsetup "views LCG_96bpython3 x86_64-slc6-gcc8-opt"
+$ export PYTHONPATH=/cvmfs/sft.cern.ch/lcg/views/LCG_96bpython3/x86_64-slc6-gcc8-opt/python:/cvmfs/sft.cern.ch/lcg/views/LCG_96bpython3/x86_64-slc6-gcc8-opt/lib
+```
+
+Then we can go ahead and create the virtual environment
+
+```
+$ python3 -m venv pyhf-tutorial
+$ source pyhf-tutorial/bin/activate
+$ python -m pip install -U pip setuptools wheel
+```
+````
+
+Once you have a virtual environment set up, you can use `source pyhf-tutorial/bin/activate` to get back into it again.
+
+### Getting pyhf
+
 If you haven't already, make a new Python 3 virtual environment and then install `pyhf` from either [PyPI](https://pypi.org/project/pyhf/) with `pip`
 
 ```
@@ -62,3 +116,7 @@ To get all the dependencies needed for this tutorial you can just install from t
 ```
 (pyhf-tutorial) $ python -m pip install -r binder/requirements.txt
 ```
+
+### Statistics References
+
+For more information about some of the theoretical topics covered with `pyhf`, see Kyle Cranmer's [Statistics and Data Science](https://cranmer.github.io/stats-ds-book/intro.html) book.
