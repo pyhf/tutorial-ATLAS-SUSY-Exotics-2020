@@ -3,8 +3,9 @@
 
 - part: Get started
   chapters:
-  - file: HowToStats
-  - file: HistFactory
+  - file: IntroToHiFa
+  - file: InterpolationCodes
+  - file: HistFactoryTopyhf
   - file: inference
   - file: serialization
   - file: visualization
