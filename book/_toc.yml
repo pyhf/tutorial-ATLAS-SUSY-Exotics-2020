@@ -3,6 +3,7 @@
 
 - part: Get started
   chapters:
+  - file: HowToStats
   - file: HistFactory
   - file: inference
   - file: serialization
