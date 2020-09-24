@@ -7,6 +7,6 @@
   - file: InterpolationCodes
   - file: WorkspaceManipulations
   - file: SimpleModel
-  - file: inference
+  - file: SimpleWorkspace
   - file: serialization
   - file: visualization
