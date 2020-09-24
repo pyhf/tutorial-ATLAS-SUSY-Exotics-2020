@@ -14,7 +14,7 @@
         }
     ],
     "observations": [
-        { "name": "singlechannel", "data": [50.0, 60.0] }
+        { "name": "singlechannel", "data": [52.5, 65.0] }
     ],
     "measurements": [
         { "name": "Measurement", "config": {"poi": "mu", "parameters": []} }
