@@ -4,9 +4,12 @@
 - part: Get started
   chapters:
   - file: IntroToHiFa
-  - file: InterpolationCodes
   - file: WorkspaceManipulations
   - file: SimpleModel
   - file: SimpleWorkspace
   - file: serialization
   - file: visualization
+
+- part: Learn Fundamentals
+  chapters:
+  - file: InterpolationCodes
