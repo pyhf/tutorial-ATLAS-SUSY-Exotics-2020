@@ -5,7 +5,8 @@
   chapters:
   - file: IntroToHiFa
   - file: InterpolationCodes
-  - file: HistFactoryTopyhf
+  - file: WorkspaceManipulations
+  - file: SimpleModel
   - file: inference
   - file: serialization
   - file: visualization
