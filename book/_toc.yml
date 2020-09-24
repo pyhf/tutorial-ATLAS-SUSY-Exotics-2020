@@ -7,6 +7,7 @@
   - file: WorkspaceManipulations
   - file: SimpleModel
   - file: SimpleWorkspace
+  - file: Modifiers
   - file: serialization
   - file: visualization
 
