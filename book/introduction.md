@@ -107,6 +107,15 @@ The 'xmlio' extra additionally installs [`uproot`](https://github.com/scikit-hep
 The 'torch' extra installs [`pytorch`](https://pytorch.org/) and the 'tensorflow' extra installs [`tensorflow`](https://www.tensorflow.org/).
 ````
 
+````{tabbed} Using Minuit Optimization
+```
+(pyhf-tutorial) $ python -m pip install pyhf[minuit]
+```
+
+The 'minuit' extra installs [`iminuit`](https://iminuit.readthedocs.io/).
+````
+
+
 See our [installation docs](https://scikit-hep.org/pyhf/installation.html) for more information about installation options.
 
 ### Dependencies for this tutorial
