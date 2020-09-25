@@ -14,7 +14,7 @@ We won't review the full pedagogy of `HistFactory`, so instead we'll point you t
 the [`pyhf` talk at SciPy 2020](https://github.com/matthewfeickert/talk-SciPy-2020).
 
 <!-- http://www.get-youtube-thumbnail.com/ -->
-[![SciPy 2020 talk YouTube](http://i3.ytimg.com/vi/FrH9s3eB6fU/maxresdefault.jpg)](https://youtu.be/FrH9s3eB6fU)
+[![SciPy 2020 talk YouTube](https://i3.ytimg.com/vi/FrH9s3eB6fU/maxresdefault.jpg)](https://youtu.be/FrH9s3eB6fU)
 
 Instead, let's move to looking at the `pyhf` API right away.
 
