@@ -1,3 +1,4 @@
-jupyter nbextension enable --py --sys-prefix widgetsnbextension
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
-jupyter lab build
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@^2.0.0 --no-build
+jupyter labextension install jupyter-matplotlib@^0.7.2 --no-build
+jupyter lab build -y
+jupyter lab clean -y
