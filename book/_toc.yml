@@ -8,8 +8,8 @@
   - file: SimpleModel
   - file: SimpleWorkspace
   - file: Modifiers
-  - file: serialization
-  - file: visualization
+  - file: SerializationAndPatching
+  - file: Combinations
 
 - part: Learn Fundamentals
   chapters:
