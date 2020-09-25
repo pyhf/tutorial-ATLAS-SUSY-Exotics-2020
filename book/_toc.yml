@@ -3,7 +3,14 @@
 
 - part: Get started
   chapters:
-  - file: HistFactory
-  - file: inference
-  - file: serialization
-  - file: visualization
+  - file: IntroToHiFa
+  - file: WorkspaceManipulations
+  - file: SimpleModel
+  - file: SimpleWorkspace
+  - file: Modifiers
+  - file: SerializationAndPatching
+  - file: Combinations
+
+- part: Learn Fundamentals
+  chapters:
+  - file: InterpolationCodes
