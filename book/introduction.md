@@ -120,3 +120,10 @@ To get all the dependencies needed for this tutorial you can just install from t
 ### Statistics References
 
 For more information about some of the theoretical topics covered with `pyhf`, see Kyle Cranmer's [Statistics and Data Science](https://cranmer.github.io/stats-ds-book/intro.html) book.
+
+### Questions and Further Information on `pyhf`
+
+For more information on `pyhf` please check the [documentation website](https://scikit-hep.org/pyhf/).
+Additionally, if you have a question about the use of `pyhf` not covered in the documentation, please ask a question on [Stack Overflow](https://stackoverflow.com/questions/tagged/pyhf) with the `[pyhf]` tag, which the `pyhf` dev team watches.
+If you believe you have found a bug in `pyhf`, please report it in the [GitHub Issues](https://github.com/scikit-hep/pyhf/issues/new?template=Bug-Report.md&labels=bug&title=Bug+Report+:+Title+Here).
+If you're interested in getting updates from the `pyhf` dev team and release announcements you can join the [`pyhf-announcements` mailing list](https://groups.google.com/group/pyhf-announcements/subscribe) (through Google Groups).
