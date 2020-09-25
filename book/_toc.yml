@@ -9,6 +9,7 @@
   - file: SimpleWorkspace
   - file: Modifiers
   - file: SerializationAndPatching
+  - file: PullPlot
   - file: Combinations
 
 - part: Learn Fundamentals
